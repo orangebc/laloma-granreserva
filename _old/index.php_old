@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<? include("html/head.php"); ?>
+		<? include("php/heatMap.php"); ?>
+	</head>
+	<body>
+	<!-- HEADER -->
+	<header class="header">
+		<div class="container-fluid">
+			<div class="col-lg-2 col-md-12 col-sm-12 col-xs-12">
+				<div class="header__logo">
+					<img src="images/logo.png" alt="logo__loma">
+				</div>
+			</div>
+			<div class="col-lg-10 col-md-12 col-sm-12 col-xs-12">
+				<div class="header__info">
+					<span class="fa fa-phone header__icon"></span><span class="header__info--phone">Tel (222) 169-17-18</span>
+					<span class="fa fa-envelope header__icon"></span><span class="header__info--email">laloma@ideasinmobiliarias.com</span>
+					<button class="header__button btn toggle_form">Recibir <br> más información</button><button class="header__button btn toggle_form">Programar <br> Cita</button>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- FORM -->
+	<section class="form" id="form">
+		<form id="step1" class="text-center">
+			<div class="form-group">
+		    	<label for="nombreForm" class="custom__label">Nombre</label>
+		    	<input type="text" class="form-control custom__input" id="nombre" name="nombre" placeholder="Tu nombre">
+		    	<hr class="form__separator">
+		  	</div>
+		  	<div class="form-group">
+		    	<label for="apellidoForm" class="custom__label">Apellido</label>
+		    	<input type="text" class="form-control custom__input" id="apellido" name="apellido" placeholder="Tu apellido">
+		    	<hr class="form__separator">
+		  	</div>
+		  	<div class="form-group">
+		    	<label for="mailForm" class="custom__label">Mail</label>
+		    	<input type="email" class="form-control custom__input" id="email" name="email" placeholder="email@tudominio.com">
+		    	<hr class="form__separator">
+		  	</div>
+		  	<div class="form-group">
+		    	<label for="celularForm" class="custom__label">Celular</label>
+		    	<input type="tel" class="form-control custom__input" id="telefono" name="telefono" minlength="10" maxlength="10" placeholder="Celular a 10 digitos">
+		    	<hr class="form__separator">
+		  	</div>
+		  	<button type="submit" class="btn form__btn">Enviar</button>
+		</form>
+		<br>
+		<p class="form__close">Cerrar</p>
+	</section>
+	<!-- SLIDER -->
+	<section id="slider" class="slider nivoSlider">
+		<img src="images/slide1.jpg" data-transition="boxRandom" alt="slide-1">
+		<img src="images/slide2.jpg" data-transition="fold" alt="slide-2">
+		<img src="images/slide3.jpg" data-transition="boxRain" alt="slide-3">
+		<img src="images/slide4.jpg" data-transition="boxRainGrow" alt="slide-4">
+	</section>
+	<!-- PHRASE -->
+	<section class="phrase">
+		<div class="container text-center">
+			<h1 class="phrase__title">Lotes con todos los servicios y excelentes amenities ubicados en la zona más exclusiva de lomas de angelópolis.</h1>
+			<small class="phrase__subtitle">Entrega en Julio 2015</small>
+			<small class="phrase__subtitle">Créditos hipotecarios disponibles para compra de terreno, financiamiento para casa y terreno."</small>
+		</div>
+	</section>
+	<!-- MAIN -->
+	<main class="main">
+		<div class="container text-center">
+			<p class="main__info">Ubicado dentro del Kluster Cascatta, <strong>LA LOMA GRAN RESERVA</strong> cuenta con áreas verdes, parques, bancos, restaurantes, comercios, oficinas y la Plaza Comercial Cascatta, una de las más grandes de Puebla.</p>
+			<p class="main__info">Su CERCANÍA con las CASCADAS, las increíbles vistas a los volcanes, además de un plan de movilidad y sustentabilidad de primer mundo,  hace a LA LOMA GRAN RESERVA el mejor lugar en Lomas de Angelópolis.</p>
+		</div>
+	</main>
+	<!-- AMENIDADES -->
+	<section class="amenidades text-center">
+		<div class="container">
+			<h2 class="green__title">Amenidades</h2>
+			<div class="amenidades__icons">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-4">
+						<figure class="amenidades__icons--icon">
+							<img src="images/icon-1.png" alt="icon-1">
+						</figure>
+						<h5 class="amenidades__icons--info">Alberca semicubierta <br> con chapoteadero</h5>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4">
+						<figure class="amenidades__icons--icon">
+							<img src="images/icon-2.png" alt="icon-2">
+						</figure>
+						<h5 class="amenidades__icons--info">Sala de <br> proyecciones</h5>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4">
+						<figure class="amenidades__icons--icon">
+							<img src="images/icon-3.png" alt="icon-3">
+						</figure>
+						<h5 class="amenidades__icons--info">Salón de <br> usos múltiples</h5>
+					</div>
+				</div>
+			</div>
+			<div class="amenidades__images">
+				<div class="row">
+					<div class="col-lg-4 no-space">
+						<img src="images/gal-1.jpg" class="amenidades__gallery" alt="gallery-1">
+					</div>
+					<div class="col-lg-4 no-space">
+						<img src="images/gal-2.jpg" class="amenidades__gallery" alt="gallery-2">
+					</div>
+					<div class="col-lg-4 no-space">
+						<img src="images/gal-3.jpg" class="amenidades__gallery" alt="gallery-3">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- MAPA DE UBICACION -->
+	<section class="ubicacion text-center">
+		<div class="container">
+			<h2 class="green__title">Ubicación</h2>
+			<div class="ubicacion__map">
+				<img src="images/ubicacion.png" alt="mapa-de-ubicacion">
+			</div>
+		</div>
+	</section>
+	<!-- LOTES -->
+	<section class="lotes text-center">
+		<div class="container-fluid">
+			<h2 class="green__title">Lotes</h2>
+			<div class="row">
+				<div class="col-lg-6 no-space">
+					<img src="images/lotes-1.jpg" class="lotes__img" alt="lotes-1">
+				</div>
+				<div class="col-lg-6 no-space">
+					<img src="images/lotes-2.jpg" class="lotes__img" alt="lotes-2">
+				</div>
+			</div>
+			<h5 class="lotes__info"><strong>INFORMES</strong> <br> Atlixcayotl 5208 Col. Tlaxcalcingo (reserva territorial Angelópolis), <br> San Andrés Cholula, Puebla <br> <strong>TEL. (222) 169-17-18</strong></h5>
+		</div>
+	</section>
+	<!-- LOGOS -->
+	<section class="logos">
+		<div class="container-fluid">
+			<div class="col-lg-3 col-md-3 col-sm-6 text-center">
+				<img src="images/logo-1.png" class="logos__logo" alt="logo-1">
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 text-center">
+				<img src="images/logo-2.png" class="logos__logo" alt="logo-2">
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 text-center">
+				<img src="images/logo-3.png" class="logos__logo" alt="logo-3">
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 text-center">
+				<img src="images/logo-4.png" class="logos__logo" alt="logo-4">
+			</div>
+		</div>
+	</section>
+	<!-- FOOTER -->
+	<footer class="footer">
+		<div class="container">
+			<h6 class="footer__info">Los precios pueden variar sin previo aviso <br>
+			<span id="toggled">Aviso de privacidad</span></h6>
+			<div class="footer__privacy" id="privacy">
+				<p class="footer__info">
+					INMOIDEAS, S.A. DE C.V., con domicilio en MORAS 409, COL. DEL VALLE, DELEGACION BENITO JUAREZ, MÉXICO D.F. C.P.03100. EN PUEBLA (222) 169-17-18 VIA AXTLIXCAYOTL #5208, COL. TLAXCALCINGO (RESERVA TERRITORIAL ANGELOPOLIS), SAN ANDRES CHOLULA, PUEBLA, es responsable de recabar sus datos personales, del uso que se le dé a los mismos y de su protección. Su información personal será utilizada para proveer los servicios y productos que ha solicitado, informarle sobre cambios en los mismos y evaluar la calidad del servicio que le brindamos. Para las finalidades antes mencionadas, requerimos obtener los siguientes datos personales: Nombre completo, dirección, email y teléfonos, considerado como sensible según la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, su dirección y teléfonos. Usted tiene derecho de acceder, rectificar y cancelar sus datos personales, así como de oponerse al tratamiento de los mismos o revocar el consentimiento que para tal fin nos haya otorgado, a través de los procedimientos que hemos implementado. Para conocer dichos procedimientos, los requisitos y plazos, se puede poner en contacto con nuestro departamento de datos personales en MEXICO D.F. (55) 5559-27-00 MORAS 409, COL. DEL VALLE, DELEGACION BENITO JUAREZ, MÉXICO D.F. C.P.03100 PUEBLA (222) 169-17-18 VIA AXTLIXCAYOTL #5208, COL. TLAXCALCINGO (RESERVA TERRITORIAL ANGELOPOLIS), SAN ANDRES CHOLULA, PUEBLA. CONTACTO VIA E-MAIL: protecciondedatos@ideasinmobiliarias.com o visitar nuestra página de Internet www.ideasinmobiliarias.mx Asimismo, le informamos que sus datos personales pueden ser transferidos y tratados dentro y fuera del país, por personas distintas a esta empresa. En ese sentido, su información puede ser compartida con otras agencias inmobiliarias pertenecientes a la Asociación Mexicana de Profesionales Inmobiliarios, A.C., para la oferta de bienes inmuebles. Si usted no manifiesta su oposición para que sus datos personales sean transferidos, se entenderá que ha otorgado su consentimiento para ello. No consiento que mis datos personales sean transferidos en los términos que señala el presente aviso de privacidad. Si usted desea dejar de recibir mensajes promocionales de nuestra parte puede solicitarlo a través de los teléfonos en MEXICO D.F. (55) 5559-27-00, en PUEBLA (222) 169-17-18, o bien al correo electrónico protecciondedatos@ideasinmobiliarias.com . Cualquier modificación a este aviso de privacidad podrá consultarla en www.ideasinmobiliarias.mx Actualización al 01/01/2015
+				</p>
+			</div>
+		</div>
+	</footer>
+	<!-- no borrar -->
+	<div id="conv"></div>
+	<!-- no borrar -->
+		<? include("html/bottom.php"); ?>
+	</body>
+</html>

@@ -1,0 +1,340 @@
+@green: #39797b;
+@white: #ffffff;
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: url(../images/bgloma.jpg) repeat;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+}
+// Extra classes 
+.no-space {
+	padding: 0;
+}
+.green__title {
+	display: inline-block;
+	color: @green;
+	border-bottom: 1px solid @green;
+	font-size: 42px;
+	padding: .5em 0;
+	margin-bottom: .5em;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.form__close {
+	text-align: center;
+	color: white;
+	font-size: 12px;
+	&:hover {
+		text-decoration: underline;
+		cursor: pointer;
+	}
+}
+// Header 
+.header {
+	padding: 0;
+	background-color: #f2eadd;
+	position: relative;
+}
+	.header__logo {
+		padding-top: .8em;
+		img {
+			vertical-align: middle;
+		}
+	}
+	 @media only screen and (max-width : 1200px) {
+		.header__logo {
+			text-align: center;
+		}
+    }
+	.header__info {
+		padding: 0 1em;
+		text-align: right;
+	}
+	@media only screen and (max-width : 992px) {
+		.header__info {
+			padding: 0 1em;
+			text-align: center;
+		}
+	}
+	@media only screen and (max-width : 768px) {
+		.header__info {
+			text-align: center;
+		}
+	}
+	.header__info--phone, .header__info--email {
+		display: inline-block;
+		pading: 0 1em;
+		margin-right: 1em;
+	}
+	@media only screen and (max-width : 768px) {
+		.header__info--phone, .header__info--email {
+			display: block;
+			pading: 0 1em;
+			margin-bottom: 1em;
+		}
+    }
+	.header__icon {
+		background-color: @green;
+		text-align: center;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		text-align: center;
+		padding-top: 1em;
+		color: @white;
+		font-size: 24px;
+		margin-right: .5em;
+		margin-left: .5em;
+	}
+	.header__button, .header__button:focus {
+		background-color: @green;
+		border-radius: 0;
+		color: @white;
+		padding: 2em 3em;
+		width: 200px;
+		transition: all .5s ease;
+		&:last-child {
+			border-left: 1px solid @white;
+		}
+		&:hover {
+			background-color: darken(@green, 20%);
+			color: @white;
+			text-decoration: none;
+			font-weight: 700;
+		}
+	}
+	@media only screen and (max-width : 1200px) {
+		.header__info {
+			padding-top: .8em;
+		}
+		.header__button, .header__button:focus {
+			width: auto;
+			padding: 1em 1.5em;
+		}
+    }
+    @media only screen and (max-width : 320px) {
+    	.header__button, .header__button:focus {
+			text-align: center;
+			display: block;
+			width: 100%;
+			margin-bottom: 1em;
+		}
+		.header__icon {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+    }
+    @media only screen and (max-width : 480px) {
+    	.header__button, .header__button:focus {
+			text-align: center;
+			display: block;
+			width: 100%;
+			margin-bottom: 1em;
+		}
+		.header__icon {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+    }
+
+// Form 
+.form {
+	display: none;
+	position: absolute;
+	top: 100px;
+	right: 45px;
+	background-color: rgba(49, 104, 107, .9);
+	width: 400px;
+	z-index: 50;
+	padding: 1em 2em;
+}
+    @media only screen and (max-width : 320px) {
+     .form {
+     		width: 100%;
+     		top: 340px;
+     		right: 50%;
+     		margin-right: -10%;
+    	}   
+    }
+    @media only screen and (max-width : 480px) {
+     .form {
+     		width: 90%;
+     		top: 380px;
+     		right: 50%;
+     		margin-right: -10%;
+       	}   
+    }
+    @media only screen and (max-width : 728px) {
+     .form {
+     		top: 280px;
+     		right: 50px;
+       	}   
+    }
+    @media only screen and (max-width : 992px) {
+    	.form {
+     		top: 170px;
+     		right: 50px;
+       	}
+    }
+    @media only screen and (max-width : 1200px) {
+    	.form {
+     		top: 170px;
+     		right: 50px;
+       	}
+    }
+	.form__separator {
+		border: none;
+		outline: none;
+		margin: 20px 0 0 0;
+		padding: 0;
+		height: 1px;
+		width: 100%;
+		background-color: #c3cac2;
+	}
+	.custom__label {
+		color: #caccbe;
+		text-transform: uppercase;
+		font-size: 16px;
+		text-align: center;
+		display: block;
+		font-weight: 400;
+		padding: 1em 0;
+		border-top: 1px solid #caccbe;
+		&:first-of-type {
+			border-top: 0;
+		}
+	}
+	.custom__input {
+		border-radius: 0;
+		box-shadow: none;
+		outline: 0;
+		padding: 1.2em .5em;
+		background-color: #f2eadd;
+
+	}
+	.form__btn, .form__btn:focus {
+		width: 100%;
+		padding: .8em;
+		text-transform: uppercase;
+		color: @green;
+		font-weight: 700;
+		background-color: #f2eadd;
+	}
+// Slider 
+.slider img {
+	width: 100%;
+}
+// Phrase
+.phrase {
+	background-color: @green;
+	padding: 3em 0;
+}
+	.phrase__title {
+		color: @white;
+		font-weight: 700;
+		line-height: 1.4em;
+		text-transform: uppercase;
+	}
+	@media only screen and (max-width : 1200px) {
+		.phrase__title {
+			font-size: 24px;
+		}
+    }
+	.phrase__subtitle {
+		display: block;
+		color: @white;
+	}
+// Main 
+.main {
+	padding: 2em 0;
+}
+	.main__info {
+		font-size: 18px;
+		padding: .5em 0;
+	}
+// Amenidades
+.amenidades {
+	padding: 2em 0;
+}
+	.amenidades__icons {
+		padding: 1.5em 0;
+	}
+		.amenidades__icons--info {
+			margin: 1em 0;
+			font-size: 18px;
+			line-height: 1.5em;
+		}
+	.amenidades__images {
+		padding: 1em 0;
+	}
+		.amenidades__gallery {
+			width: 100%;
+		}
+// Ubicacion
+.ubicacion {
+	padding: 2em 0;
+}
+	.ubicacion__map {
+		padding: 2em 0;
+	}
+		.ubicacion__map img {
+			width: 100%;
+		}
+// Lotes
+.lotes__img {
+	width: 100%;
+}
+	.lotes__info {
+		font-size: 21px;
+		padding: 2em 0;
+		font-weight: 400;
+		line-height: 1.5em;
+	}
+// Logos
+.logos {
+	padding: 2em;
+}
+    @media only screen and (max-width : 320px) {
+     .logos__logo{
+			padding: 1em 0;
+       	}   
+    }
+    @media only screen and (max-width : 480px) {
+     .logos__logo{
+			padding: 1em 0;
+       	}   
+    }
+// Footer
+.footer {
+	background-color: @green;
+	text-align: center;
+	padding: 2em 0;
+}
+	.footer__info {
+		color: @white;
+		font-size: 18px;
+		line-height: 1.5em;
+		font-weight: 400;
+	}
+	.footer__info span {
+		color: @white;
+		font-weight: 600;
+		&:hover {
+			text-decoration: none;
+			cursor: pointer;
+		}
+	}
+#privacy {
+	display: none;
+	.footer__info {
+		text-align: justify;
+		font-size: 14px;
+		padding: 1em;
+	}	
+}

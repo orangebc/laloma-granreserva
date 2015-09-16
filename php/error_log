@@ -1,0 +1,83 @@
+[03-Jun-2015 06:20:08 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/casasatl/public_html/granloma/php/conv.php on line 15
+[03-Jun-2015 06:20:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/casasatl/public_html/granloma/php/conv.php:15
+Stack trace:
+#0 /home/casasatl/public_html/granloma/php/conv.php(15): PDO->__construct('mysql:host=casa...', 'casasatl_gfh2aP...', '!)eEMY9@')
+#1 {main}
+  thrown in /home/casasatl/public_html/granloma/php/conv.php on line 15
+[03-Jun-2015 06:30:28 UTC] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/casasatl/public_html/granloma/php/conv.php on line 15
+[03-Jun-2015 06:30:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/casasatl/public_html/granloma/php/conv.php:15
+Stack trace:
+#0 /home/casasatl/public_html/granloma/php/conv.php(15): PDO->__construct('mysql:host=casa...', 'casasatl_gfh2aP...', '!)eEMY9@')
+#1 {main}
+  thrown in /home/casasatl/public_html/granloma/php/conv.php on line 15
+[06-Jun-2015 18:53:44 America/Mexico_City] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Connection timed out' in /home/lalomagr/public_html/php/conv.php:15
+Stack trace:
+#0 /home/lalomagr/public_html/php/conv.php(15): PDO->__construct('mysql:host=casa...', 'casasatl_gfh2aP...', '!)eEMY9@')
+#1 {main}
+  thrown in /home/lalomagr/public_html/php/conv.php on line 15
+[06-Jun-2015 18:55:40 America/Mexico_City] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Connection timed out' in /home/lalomagr/public_html/php/conv.php:15
+Stack trace:
+#0 /home/lalomagr/public_html/php/conv.php(15): PDO->__construct('mysql:host=casa...', 'casasatl_gfh2aP...', '!)eEMY9@')
+#1 {main}
+  thrown in /home/lalomagr/public_html/php/conv.php on line 15
+[06-Jun-2015 18:56:40 America/Mexico_City] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Connection timed out' in /home/lalomagr/public_html/php/conv.php:15
+Stack trace:
+#0 /home/lalomagr/public_html/php/conv.php(15): PDO->__construct('mysql:host=casa...', 'casasatl_gfh2aP...', '!)eEMY9@')
+#1 {main}
+  thrown in /home/lalomagr/public_html/php/conv.php on line 15
+[06-Jun-2015 18:57:46 America/Mexico_City] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Connection timed out' in /home/lalomagr/public_html/php/conv.php:15
+Stack trace:
+#0 /home/lalomagr/public_html/php/conv.php(15): PDO->__construct('mysql:host=casa...', 'casasatl_gfh2aP...', '!)eEMY9@')
+#1 {main}
+  thrown in /home/lalomagr/public_html/php/conv.php on line 15
+[06-Jun-2015 19:08:10 America/Mexico_City] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Connection timed out' in /home/lalomagr/public_html/php/conv.php:15
+Stack trace:
+#0 /home/lalomagr/public_html/php/conv.php(15): PDO->__construct('mysql:host=casa...', 'casasatl_gfh2aP...', '!)eEMY9@')
+#1 {main}
+  thrown in /home/lalomagr/public_html/php/conv.php on line 15
+[06-Jun-2015 19:11:06 America/Mexico_City] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/lalomagr/public_html/php/conv.php on line 20
+[06-Jun-2015 19:11:06 America/Mexico_City] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/lalomagr/public_html/php/conv.php:20
+Stack trace:
+#0 /home/lalomagr/public_html/php/conv.php(20): PDO->__construct('mysql:host="lal...', 'casasatl_gfh2aP...', '!)eEMY9@')
+#1 {main}
+  thrown in /home/lalomagr/public_html/php/conv.php on line 20
+[06-Jun-2015 19:11:11 America/Mexico_City] PHP Warning:  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/lalomagr/public_html/php/conv.php on line 20
+[06-Jun-2015 19:11:11 America/Mexico_City] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name or service not known' in /home/lalomagr/public_html/php/conv.php:20
+Stack trace:
+#0 /home/lalomagr/public_html/php/conv.php(20): PDO->__construct('mysql:host="lal...', 'casasatl_gfh2aP...', '!)eEMY9@')
+#1 {main}
+  thrown in /home/lalomagr/public_html/php/conv.php on line 20
+[06-Jun-2015 19:23:33 America/Mexico_City] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [2002] Connection timed out' in /home/lalomagr/public_html/php/conv.php:15
+Stack trace:
+#0 /home/lalomagr/public_html/php/conv.php(15): PDO->__construct('mysql:host=casa...', 'casasatl_gfh2aP...', '!)eEMY9@')
+#1 {main}
+  thrown in /home/lalomagr/public_html/php/conv.php on line 15
+[06-Jun-2015 19:36:56 America/Mexico_City] PHP Warning:  mysql_connect(): Connection timed out in /home/lalomagr/public_html/php/conv.php on line 35
+[06-Jun-2015 19:38:34 America/Mexico_City] PHP Warning:  mysql_connect(): Connection timed out in /home/lalomagr/public_html/php/conv.php on line 35
+[06-Jun-2015 19:39:18 America/Mexico_City] PHP Parse error:  syntax error, unexpected ':' in /home/lalomagr/public_html/php/conv.php on line 35
+[06-Jun-2015 19:39:25 America/Mexico_City] PHP Parse error:  syntax error, unexpected ':' in /home/lalomagr/public_html/php/conv.php on line 35
+[06-Jun-2015 19:40:54 America/Mexico_City] PHP Warning:  mysql_connect(): Connection timed out in /home/lalomagr/public_html/php/conv.php on line 35
+[06-Jun-2015 19:44:35 America/Mexico_City] PHP Warning:  mysql_connect(): Connection timed out in /home/lalomagr/public_html/php/conv.php on line 35
+[06-Jun-2015 19:46:00 America/Mexico_City] PHP Warning:  mysql_connect(): Connection timed out in /home/lalomagr/public_html/php/conv.php on line 35
+[06-Jun-2015 19:49:50 America/Mexico_City] PHP Warning:  mysql_connect(): Connection timed out in /home/lalomagr/public_html/php/conv.php on line 35
+[06-Jun-2015 19:54:25 America/Mexico_City] PHP Warning:  mysql_connect(): Connection timed out in /home/lalomagr/public_html/php/conv.php on line 35
+[06-Jun-2015 20:06:52 America/Mexico_City] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'lalomagr_sv4r471'@'servidor1101.controladordns.com' (using password: YES)' in /home/lalomagr/public_html/php/conv.php:15
+Stack trace:
+#0 /home/lalomagr/public_html/php/conv.php(15): PDO->__construct('mysql:host=lalo...', 'lalomagr_sv4r47...', 'zJne#Eh0yi6F')
+#1 {main}
+  thrown in /home/lalomagr/public_html/php/conv.php on line 15
+[06-Jun-2015 20:10:15 America/Mexico_City] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'lalomagr_sv4r471'@'servidor1101.controladordns.com' (using password: YES)' in /home/lalomagr/public_html/php/conv.php:15
+Stack trace:
+#0 /home/lalomagr/public_html/php/conv.php(15): PDO->__construct('mysql:host=lalo...', 'lalomagr_sv4r47...', 'zJne#Eh0yi6F')
+#1 {main}
+  thrown in /home/lalomagr/public_html/php/conv.php on line 15
+[06-Jun-2015 20:10:30 America/Mexico_City] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'lalomagr_sv4r471'@'servidor1101.controladordns.com' (using password: YES)' in /home/lalomagr/public_html/php/conv.php:15
+Stack trace:
+#0 /home/lalomagr/public_html/php/conv.php(15): PDO->__construct('mysql:host=lalo...', 'lalomagr_sv4r47...', 'zJne#Eh0yi6F')
+#1 {main}
+  thrown in /home/lalomagr/public_html/php/conv.php on line 15
+[06-Jun-2015 20:14:34 America/Mexico_City] PHP Warning:  mysql_connect(): Connection timed out in /home/lalomagr/public_html/php/conv.php on line 2
+[06-Jun-2015 20:19:48 America/Mexico_City] PHP Warning:  mysql_connect(): Connection timed out in /home/lalomagr/public_html/php/conv.php on line 2
+[06-Jun-2015 20:22:16 America/Mexico_City] PHP Warning:  mysql_connect(): Connection timed out in /home/lalomagr/public_html/php/conv.php on line 2
+[06-Jun-2015 20:30:07 America/Mexico_City] PHP Warning:  mysql_connect(): Connection timed out in /home/lalomagr/public_html/php/conv.php on line 2
+[06-Jun-2015 20:37:41 America/Mexico_City] PHP Warning:  mysql_connect(): Connection timed out in /home/lalomagr/public_html/php/conv.php on line 2
